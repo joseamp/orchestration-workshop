@@ -31,6 +31,8 @@ services:
     image: joseamartinez/dockercoins_worker:1.0
     networks:
     - dockercoins
+    deploy:
+        replicas: 2
 
 networks:
     dockercoins:
