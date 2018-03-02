@@ -7,6 +7,8 @@ services:
     - dockercoins
     ports:
     - "8001:80"
+    deploy:
+        mode: global
 
   hasher:
     image: joseamartinez/dockercoins_hasher:1.0
