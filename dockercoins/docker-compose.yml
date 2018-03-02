@@ -28,7 +28,7 @@ services:
     - dockercoins
 
   worker:
-          image: joseamartinez/dockercoins_worker:1.0
+    image: joseamartinez/dockercoins_worker:1.0
     networks:
     - dockercoins
 
